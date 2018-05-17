@@ -40,6 +40,11 @@ if(! function_exists('asset_url()')) {
 }
 ```
 
+### autoload.php
+```php
+$autoload['helper'] = array('url','utility');
+```
+
 ### routes.php
 
 ```php
