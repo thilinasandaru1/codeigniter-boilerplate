@@ -17,7 +17,6 @@ This is starter template for codeignter with assets folder, which is holding **c
 
 We can use `<?php echo asset_url();?>` to access assets folder.
 
-Ex:
 ```php
 <link rel="stylesheet" href="<?php echo asset_url();?>css/main.css">
 ```
